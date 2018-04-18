@@ -65,6 +65,7 @@ img {
 .projects {
   border: solid 1px black;
   display: inline-block;
+  background-color: #ff6666;
 }
 
 .project1
@@ -75,4 +76,10 @@ img {
   border: solid 1px black;
   margin: 1% 8%;
   text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  
 }
