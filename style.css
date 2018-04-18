@@ -1,3 +1,7 @@
+
+#title  {
+    font-size: 400%;
+}
 /* Main structure */
 
 .background {
@@ -12,27 +16,24 @@
   weight:  100%;
 }
 
-main {
-  background-color: white;
+/* main { */
+  /* background-color: white;
   width: auto;
   height: 50%;
   border: solid 1px black;
   display: inline-block;
-}
+} */
 
 
 /* Header */
 
 .jumbotron{
-background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg) ;
+background-image: url(images/bg4.jpeg) ;
 background-size: cover;
 color: white;
 }
 
-#jumbotron_text,
- .jumbotron {
-  color: white;
-}
+
 
 /* Navigation */
 
@@ -42,9 +43,9 @@ color: white;
   text-align: center;
 }
 
-li {
+/* li {
   display: inline;
-}
+} */
 
 /* Main body*/
 
@@ -57,7 +58,7 @@ li {
   display: inline-block;
 }
 
-img {
+.pic {
   width: 30%;
   height: 20%;
   float: right;
