@@ -1,3 +1,4 @@
+/* Home page */
 
 #title  {
     font-size: 400%;
@@ -12,23 +13,6 @@
   background-image: radial-gradient(circle, #92a8d1, #deeaee);
 }
 
-/* .site {
-  background-color: red;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  weight:  100%;
-} */
-
-/* main { */
-  /* background-color: white;
-  width: auto;
-  height: 50%;
-  border: solid 1px black;
-  display: inline-block;
-} */
-
-
 /* Header */
 
 .jumbotron{
@@ -36,8 +20,6 @@ background-image: url(images/bg4.jpeg) ;
 background-size: cover;
 color: white;
 }
-
-
 
 /* Navigation */
 
@@ -48,33 +30,7 @@ color: white;
   background-image: linear-gradient(270deg, #92a8d1, #deeaee);
 }
 
-/* li {
-  display: inline;
-} */
-
-/* Main body*/
-
-/* .first_section {
-  float: left;
-  width: 60%;
-} */
-
-/* .second_section {
-  display: inline-block;
-} */
-
-/* .pic {
-  width: 30%;
-  height: 20%;
-  float: right;
-  margin-right: 5%;
-} */
-
-
 /* Projects */
-
-
-
 
 .projects
  {
