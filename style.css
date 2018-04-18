@@ -2,10 +2,14 @@
 #title  {
     font-size: 400%;
 }
+
+.link {
+  color:white;
+}
 /* Main structure */
 
 .background {
-  background-color: white;
+  background-image: radial-gradient(circle, #92a8d1, #deeaee);
 }
 
 .site {
@@ -49,21 +53,21 @@ color: white;
 
 /* Main body*/
 
-.first_section {
+/* .first_section {
   float: left;
   width: 60%;
-}
+} */
 
 .second_section {
   display: inline-block;
 }
 
-.pic {
+/* .pic {
   width: 30%;
   height: 20%;
   float: right;
   margin-right: 5%;
-}
+} */
 
 
 /* Projects */
@@ -88,4 +92,10 @@ color: white;
 
 .footer {
 
+}
+
+/* links */
+
+a.links {
+  color: white;
 }
