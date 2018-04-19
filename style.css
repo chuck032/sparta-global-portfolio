@@ -1,12 +1,13 @@
 /* Home page */
 
 #title  {
-    font-size: 400%;
+  font-size: 400%;
 }
 
 .link {
   color:white;
 }
+
 /* Main structure */
 
 .background {
@@ -15,10 +16,10 @@
 
 /* Header */
 
-.jumbotron{
-background-image: url(images/bg4.jpeg) ;
-background-size: cover;
-color: white;
+.jumbotron {
+  background-image: url(images/bg4.jpeg) ;
+  background-size: cover;
+  color: white;
 }
 
 /* Navigation */
@@ -32,8 +33,7 @@ color: white;
 
 /* Projects */
 
-.projects
- {
+.projects {
   border: solid 1px black;
   text-align: center;
   margin: 5% 0;
@@ -48,6 +48,11 @@ color: white;
 
 /* contact */
 
+#linkedin-logo,
+#twitter-logo {
+  background-color: #deeaee;
+  opacity: 0.5;
+}
 
 /* Footer */
 
@@ -61,10 +66,10 @@ a.links {
 /* media query */
 
 @media (max-width: 990px) {
-   #pic1,
-   #pic2,
-   #pic3,
-   #pic4 {
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4 {
     display: none;
   }
 }
