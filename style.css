@@ -1,0 +1,75 @@
+/* Home page */
+
+#title  {
+  font-size: 400%;
+}
+
+.link {
+  color:white;
+}
+
+/* Main structure */
+
+.background {
+  background-image: radial-gradient(circle, #92a8d1, #deeaee);
+}
+
+/* Header */
+
+.jumbotron {
+  background-image: url(images/bg4.jpeg) ;
+  background-size: cover;
+  color: white;
+}
+
+/* Navigation */
+
+#nav_bar {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(270deg, #92a8d1, #deeaee);
+}
+
+/* Projects */
+
+.projects {
+  border: solid 1px black;
+  text-align: center;
+  margin: 5% 0;
+}
+
+#pic1,
+#pic2,
+#pic3,
+#pic4 {
+  margin: 6% 0;
+}
+
+/* contact */
+
+#linkedin-logo,
+#twitter-logo {
+  background-color: #deeaee;
+  opacity: 0.5;
+}
+
+/* Footer */
+
+
+/* links */
+
+a.links {
+  color: white;
+}
+
+/* media query */
+
+@media (max-width: 990px) {
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4 {
+    display: none;
+  }
+}
