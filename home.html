@@ -1,115 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Chuck Ip</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <title>Chuck Ip</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body class="background">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <body class="background">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-    <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-          </ol>
+  <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img class="center-block img-responsive img-rounded" src="images/bg4.jpeg" alt="Los Angeles" style="width:100%;">
-        <div class="carousel-caption">
-          <h1 id="title">Chuck Ip</h1>
-          <h3>Portfolio</h3>
+  <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img class="center-block img-responsive img-rounded" src="images/bg4.jpeg" alt="Los Angeles" style="width:100%;">
+                <div class="carousel-caption">
+                  <h1 id="title">Chuck Ip</h1>
+                  <h3>Portfolio</h3>
+                </div>
+              </div>
+
+              <div class="item">
+                <a href="index.html"><img class="center-block img-responsive" src="images/bg4.jpeg" alt="background" style="width:100%;"></a>
+                <div class="carousel-caption">
+                  <h3><a class="link" href="index.html">About</a></h3>
+                </div>
+              </div>
+
+              <div class="item">
+                <a href="projects.html"><img class="center-block img-responsive" src="images/bg4.jpeg" alt="New York" style="width:100%;"></a>
+                <div class="carousel-caption">
+                  <h3><a class="link" href="projects.html">Projects</a></h3>
+                </div>
+              </div>
+
+              <div class="item">
+                <a href="contact.html"><img class="center-block img-responsive" src="images/bg4.jpeg" alt="New York" style="width:100%;"></a>
+                <div class="carousel-caption">
+                  <h3><a class="link" href="contact.html">Contact</a></h3>
+                </div>
+              </div>
+            </div>
+
+  <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </div>
 
-    <div class="item">
-      <a href="index.html"><img class="center-block img-responsive" src="images/bg4.jpeg" alt="background" style="width:100%;"></a>
-      <div class="carousel-caption">
-        <h3><a class="link" href="index.html">About</a></h3>
+  <!-- footer -->
+      <nav id="nav_bar" class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="index.html">About</a></li>
+              <li class="dropup">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="projects.html#project1">Project 1</a></li>
+                  <li><a href="projects.html#project2">Project 2</a></li>
+                  <li><a href="projects.html#project3">Project 3</a></li>
+                  <li><a href="projects.html#project4">Project 4</a></li>
+                  <li><a href="projects.html#end">Project 5?</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+
+        <footer class="footer">
+          <div class="container">
+            <p class="text-muted">&copy 2018 Chuck Ip inc.</p>
+          </div>
+        </footer>
+
       </div>
-    </div>
 
-    <div class="item">
-      <a href="projects.html"><img class="center-block img-responsive" src="images/bg4.jpeg" alt="New York" style="width:100%;"></a>
-      <div class="carousel-caption">
-        <h3><a class="link" href="projects.html">Projects</a></h3>
-      </div>
-    </div>
-
-    <div class="item">
-      <a href="contact.html"><img class="center-block img-responsive" src="images/bg4.jpeg" alt="New York" style="width:100%;"></a>
-      <div class="carousel-caption">
-        <h3><a class="link" href="contact.html">Contact</a></h3>
-      </div>
-    </div>
-
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-  </div>
-</div>
-
-<!-- footer -->
-
-<nav id="nav_bar" class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"></a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="index.html">About</a></li>
-        <li class="dropup">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="projects.html#project1">Project 1</a></li>
-            <li><a href="projects.html#project2">Project 2</a></li>
-            <li><a href="projects.html#project3">Project 3</a></li>
-            <li><a href="projects.html#project4">Project 4</a></li>
-            <li><a href="projects.html#end">Project 5?</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
-      </div><!--/.nav-collapse -->
-    </div><!--/.container-fluid -->
-  </nav>
-
-<footer class="footer">
-<div class="container">
-  <p class="text-muted">&copy 2018 Chuck Ip inc.</p>
-</div>
-</footer>
-
-</div>
-
-</body>
-</html>
+    </body>
+  </html>
